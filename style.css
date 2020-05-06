@@ -43,3 +43,47 @@
         background: #fda085;
         color: #fff;
     }
+
+    .todo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .todo-list {
+        list-style-type: none;
+        min-width: 30%;
+    }
+
+    .todo {
+        margin: 0.5rem;
+        background: #fff;
+        color: #000;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .todo li {
+        flex: 1;
+    }
+
+    .complete-btn,
+    .delete-btn {
+        background: #ff6f47;
+        color: #fff;
+        border: none;
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .complete-btn {
+        background: rgb(93, 199, 93);
+    }
+
+    .todo-item {
+        padding: 0rem 0.7rem;
+    }
+
